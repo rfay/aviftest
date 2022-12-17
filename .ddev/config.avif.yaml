@@ -1,2 +1,4 @@
 
-webimage_extra_packages: [libaom-dev]
+hooks:
+  post-start:
+  - exec: php -r 'var_dump(imageavif(imagecreatetruecolor(8, 8), "/tmp/test"));'

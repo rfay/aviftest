@@ -7,3 +7,10 @@ cd aviftest
 ddev start
 ddev launch
 ```
+
+Notes:
+* This PHP "not a bug" seems to describe the same thing, but here we don't get a SEGV, just a warning, https://bugs.php.net/bug.php?id=81217
+* https://github.com/libgd/libgd/issues/770
+* Sample example command `php -r 'var_dump(imageavif(imagecreatetruecolor(8, 8), "/tmp/test"));'` from https://bugs.php.net/bug.php?id=81217
+* libavif just broken before 0.9.3? We have 0.8.4 in Debian Bullseye, https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=976349
+* Discussion of custom php build, https://php.watch/versions/8.1/gd-avif
