@@ -5,7 +5,7 @@ if (function_exists('imageavif')) {
 
     $image = imagecreatefromjpeg('image.jpg');
 
-    $cropped_image = imagecrop($image, ['x' => 0, 'y' => 0, 'width' => 50, 'height' => 50]);
+    $cropped_image = imagecrop($image, ['x' => 0, 'y' => 0, 'width' => 300, 'height' => 300]);
 
     imagewebp($cropped_image, 'cropped.jpg');
     imageavif($cropped_image, 'cropped.avif');
