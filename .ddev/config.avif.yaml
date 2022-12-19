@@ -1,4 +1,4 @@
 
 hooks:
   post-start:
-  - exec: php -r 'var_dump(imageavif(imagecreatetruecolor(8, 8), "/tmp/test"));'
+  - exec: php -r 'var_dump(imageavif(imagecreatetruecolor(8, 8), "/var/www/html/xxx.jpg"));'
