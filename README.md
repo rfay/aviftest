@@ -17,3 +17,4 @@ Notes:
 * phpwatch article: https://php.watch/versions/8.1/gd-avif
 * man page: https://www.php.net/manual/en/function.imageavif.php
 * Apparent stack overflow answer: https://stackoverflow.com/questions/71450871/php-8-1-avif-error-docker-no-codec-available
+* How to compile php from source, https://php.watch/articles/compile-php-ubuntu
