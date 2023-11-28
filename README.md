@@ -9,6 +9,10 @@ ddev launch
 ```
 
 Notes:
+* I think this may be working with Debian Bookworm, https://github.com/ddev/ddev/pull/5579
+* I have removed the custom Dockerfile that was building extra stuff.
+
+## Previous notes
 * This PHP "not a bug" seems to describe the same thing, but here we don't get a SEGV, just a warning, https://bugs.php.net/bug.php?id=81217
 * https://github.com/libgd/libgd/issues/770
 * Sample example command `php -r 'var_dump(imageavif(imagecreatetruecolor(8, 8), "/tmp/test"));'` from https://bugs.php.net/bug.php?id=81217
